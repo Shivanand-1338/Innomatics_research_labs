@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 
 app = FastAPI()
-
 # Products list (temp database)
 products = [
     {"id": 1, "name": "Smartphone", "price": 19999, "category": "Electronics", "in_stock": True},
